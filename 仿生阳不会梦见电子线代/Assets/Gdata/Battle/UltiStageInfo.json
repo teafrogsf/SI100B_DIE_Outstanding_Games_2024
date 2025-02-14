@@ -1,0 +1,161 @@
+{
+    "_StageLen": 5,
+    "1": {
+        "map": "1",
+        "upgradeBarNum": 1,
+        "upgradeChoiceNum": 3,
+        "DiceUpgrade": [
+            0.0,
+            0.1,
+            0.0
+        ],
+        "passiveBarNum": 2,
+        "passiveChoiceNum": 4,
+        "passiveCurve": [
+            [
+                35,
+                45,
+                15,
+                5,
+                0
+            ]
+        ],
+        "receptionInfo": {
+            "receptionName": "兔兔在哪里？",
+            "receptionIndex": "LR-1",
+            "receptionBG": "2",
+            "receptionMusic": "2",
+            "Enemy": [],
+            "Reception": "myo"
+        }
+    },
+    "2": {
+        "map": "2",
+        "upgradeBarNum": 2,
+        "upgradeChoiceNum": 3,
+        "DiceUpgrade": [
+            0.0,
+            0.3,
+            0.05
+        ],
+        "passiveBarNum": 1,
+        "passiveChoiceNum": 4,
+        "passiveCurve": [
+            [
+                35,
+                45,
+                15,
+                5,
+                5
+            ]
+        ],
+        "receptionInfo": {
+            "receptionName": "末路烟民",
+            "receptionIndex": "LR-2",
+            "receptionBG": "1",
+            "receptionMusic": "1",
+            "Enemy": [],
+            "Reception": "leaflet"
+        }
+    },
+    "3": {
+        "map": "3",
+        "upgradeBarNum": 1,
+        "upgradeChoiceNum": 4,
+        "DiceUpgrade": [
+            0.0,
+            0.4,
+            0.1
+        ],
+        "passiveBarNum": 2,
+        "passiveChoiceNum": 4,
+        "passiveCurve": [
+            [
+                10,
+                15,
+                35,
+                35,
+                25
+            ],
+            [
+                35,
+                45,
+                15,
+                5,
+                5
+            ]
+        ],
+        "receptionInfo": {
+            "receptionName": "老大今天我们打什么龙",
+            "receptionIndex": "LR-3",
+            "receptionBG": "3",
+            "receptionMusic": "3",
+            "Enemy": [],
+            "Reception": "liuaso"
+        }
+    },
+    "4": {
+        "map": "4",
+        "upgradeBarNum": 2,
+        "upgradeChoiceNum": 4,
+        "DiceUpgrade": [
+            0.0,
+            0.6,
+            0.2
+        ],
+        "passiveBarNum": 1,
+        "passiveChoiceNum": 4,
+        "passiveCurve": [
+            [
+                30,
+                40,
+                15,
+                15,
+                10
+            ]
+        ],
+        "receptionInfo": {
+            "receptionName": "并非强敌",
+            "receptionIndex": "LR-4",
+            "receptionBG": "4",
+            "receptionMusic": "4",
+            "Enemy": [],
+            "Reception": "redmist"
+        }
+    },
+    "5": {
+        "map": "Yang",
+        "upgradeBarNum": 2,
+        "upgradeChoiceNum": 4,
+        "DiceUpgrade": [
+            0.0,
+            0.7,
+            0.2
+        ],
+        "passiveBarNum": 1,
+        "passiveChoiceNum": 4,
+        "passiveCurve": [
+            [
+                30,
+                40,
+                15,
+                15,
+                10
+            ]
+        ],
+        "receptionInfo": {
+            "receptionName": "e≠2.71828",
+            "receptionIndex": "LR-5",
+            "receptionBG": "Yang",
+            "receptionMusic": "Yang",
+            "Enemy": [],
+            "Reception": "rnfmabj"
+        }
+    },
+    "0": {
+        "receptionInfo": {
+            "receptionName": "这是什么鬼地方？",
+            "receptionIndex": "LR-?"
+        }
+    }
+}

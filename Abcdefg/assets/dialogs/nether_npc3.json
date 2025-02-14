@@ -1,0 +1,76 @@
+{
+  "start": "1",
+  "data": {
+    "1": {
+      "npc": "nether_npc3_raging_dialogue1",
+      "player": [
+        {
+          "str": "nether_player3_raging_dialogue1",
+          "next": "2"
+        }
+      ]
+    },
+    "2": {
+      "npc": "nether_npc3_raging_dialogue2",
+      "player": [
+        {
+          "str": "nether_player3_raging_dialogue2",
+          "next": "3"
+        },
+        {
+          "str": "nether_player3_raging_dialogue2_2",
+          "next": "3"
+        }
+      ]
+    },
+    "3": {
+      "npc": "nether_npc3_raging_dialogue3",
+      "image": "./assets/ui/shaanxi.png",
+      "player": [
+        {
+          "str": "nether_player3_raging_dialogue3",
+          "next": "b1"
+        },
+        {
+          "str": "nether_player3_raging_dialogue3_2",
+          "next": "b1"
+        },
+        {
+          "str": "nether_player3_raging_dialogue3_3",
+          "next": "4"
+        },
+        {
+          "str": "nether_player3_raging_dialogue3_4",
+          "next": "b1"
+        }
+      ]
+    },
+    "4": {
+      "npc": "nether_npc3_raging_dialogue4",
+      "player": [
+        {
+          "str": "nether_npc3_raging_option1",
+          "next": "!1"
+        }
+      ]
+    },
+    "b1": {
+      "npc": "nether_npc3_raging_dialogue_b1",
+      "player": [
+        {
+          "str": "nether_player3_raging_dialogue_b1",
+          "next": "!#"
+        }
+      ]
+    },
+    "b2": {
+      "npc": "nether_npc3_raging_dialogue_b2",
+      "player": [
+        {
+          "str": "nether_player3_raging_dialogue_b2",
+          "next": "!#"
+        }
+      ]
+    }
+  }
+}

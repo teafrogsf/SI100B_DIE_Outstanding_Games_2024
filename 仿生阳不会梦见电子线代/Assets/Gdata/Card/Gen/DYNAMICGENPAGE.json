@@ -1,0 +1,127 @@
+{
+    "P0001": {
+        "cardName": "绿劫之降",
+        "cardQuality": "green",
+        "mana": 0,
+        "pageDesq": {
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "maxDice": 7,
+                    "minDice": 6,
+                    "desq": {
+                        "effect": "Damage",
+                        "count": 2,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "Hit",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                }
+            ],
+            "overall_desq": {
+                "condition": "None",
+                "effect": "None",
+                "count": 0,
+                "buffs": [],
+                "counts": [],
+                "isNext": true
+            }
+        }
+    },
+    "P0002": {
+        "cardName": "金劫刀",
+        "cardQuality": "gold",
+        "mana": 2,
+        "pageDesq": {
+            "list": [
+                {
+                    "diceType": "Slash",
+                    "maxDice": 13,
+                    "minDice": 8,
+                    "desq": {
+                        "effect": "StaggerDamage",
+                        "count": 7,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "Hit",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                }
+            ],
+            "overall_desq": {
+                "condition": "None",
+                "effect": "None",
+                "count": 0,
+                "buffs": [],
+                "counts": [],
+                "isNext": true
+            }
+        }
+    },
+    "P0003": {
+        "cardName": "漩水劲",
+        "cardQuality": "blue",
+        "mana": 3,
+        "pageDesq": {
+            "list": [
+                {
+                    "diceType": "Pierce",
+                    "maxDice": 8,
+                    "minDice": 4,
+                    "desq": {
+                        "effect": "None",
+                        "count": 0,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "None",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                },
+                {
+                    "diceType": "Evade",
+                    "maxDice": 7,
+                    "minDice": 6,
+                    "desq": {
+                        "effect": "GetBuffs",
+                        "count": 0,
+                        "buffs": [
+                            "Endurance"
+                        ],
+                        "counts": [
+                            2
+                        ],
+                        "condition": "Win",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                },
+                {
+                    "diceType": "Blunt",
+                    "maxDice": 10,
+                    "minDice": 5,
+                    "desq": {
+                        "effect": "Damage",
+                        "count": 2,
+                        "buffs": [],
+                        "counts": [],
+                        "condition": "Win",
+                        "isNext": true
+                    },
+                    "isCounter": false
+                }
+            ],
+            "overall_desq": {
+                "condition": "Use",
+                "effect": "Page",
+                "count": 1,
+                "buffs": [],
+                "counts": [],
+                "isNext": false
+            }
+        }
+    }
+}

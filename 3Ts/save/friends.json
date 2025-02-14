@@ -1,0 +1,152 @@
+{
+    "Friends": [
+        {
+            "ID": "fr0",
+            "name": "Knight",
+            "HP": 20,
+            "maxHP": 35,
+            "SP": 6,
+            "SPHeal": 2,
+            "maxSP": 10,
+            "cards": [
+                {
+                    "ID": "0-1",
+                    "title": "劈砍",
+                    "description": "",
+                    "gate": "nor",
+                    "type": "True",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1.png"
+                },
+                {
+                    "ID": "0-2",
+                    "title": "横切",
+                    "description": "",
+                    "gate": "xnor",
+                    "type": "False",
+                    "level": 100,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-2.png"
+                },
+                {
+                    "ID": "0-3",
+                    "title": "突进",
+                    "description": "",
+                    "gate": "not",
+                    "type": "False",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-3.png"
+                }
+            ],
+            "imgLocation": "./assets/char/fr-0",
+            "imgSize": [
+                40,
+                80
+            ],
+            "imgDashSize": [
+                100,
+                65
+            ],
+            "imgAttackSize": [
+                150,
+                100
+            ]
+        },
+        {
+            "ID": "fr1",
+            "name": "小骑士",
+            "HP": 30,
+            "maxHP": 30,
+            "SP": 4,
+            "SPHeal": 2,
+            "maxSP": 5,
+            "cards": [
+                {
+                    "ID": "A-1",
+                    "title": "怒刃解放",
+                    "description": "",
+                    "gate": "not",
+                    "type": "False",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-1.png"
+                },
+                {
+                    "ID": "A-2",
+                    "title": "骨钉横切",
+                    "description": "",
+                    "gate": "and",
+                    "type": "False",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-2.png"
+                },
+                {
+                    "ID": "A-3",
+                    "title": "如丝之歌",
+                    "description": "",
+                    "gate": "or",
+                    "type": "True",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-3.png"
+                },
+                {
+                    "ID": "A-4",
+                    "title": "灵魂逆流",
+                    "description": "",
+                    "gate": "nand",
+                    "type": "True",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-4.png"
+                },
+                {
+                    "ID": "A-5",
+                    "title": "迅猛下劈",
+                    "description": "",
+                    "gate": "nor",
+                    "type": "False",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-5.png"
+                },
+                {
+                    "ID": "A-6",
+                    "title": "肉斩骨断",
+                    "description": "",
+                    "gate": "xor",
+                    "type": "True",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-6.png"
+                },
+                {
+                    "ID": "A-7",
+                    "title": "单点突刺",
+                    "description": "",
+                    "gate": "xnor",
+                    "type": "False",
+                    "level": 1,
+                    "effects": [],
+                    "imgLocation": "./assets/card/A-7.png"
+                }
+            ],
+            "imgLocation": "./assets/char/fr-0",
+            "imgSize": [
+                40,
+                80
+            ],
+            "imgDashSize": [
+                100,
+                65
+            ],
+            "imgAttackSize": [
+                150,
+                100
+            ]
+        }
+    ]
+}

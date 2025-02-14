@@ -1,0 +1,282 @@
+{
+    "Malkuth": {
+        "slash": {
+            "focus_x": 0,
+            "focus_y": -40,
+            "char_width": 320,
+            "char_height": 390
+        },
+        "blunt": {
+            "focus_x": 0,
+            "focus_y": 40,
+            "char_width": 355,
+            "char_height": 390
+        },
+        "hurt": {
+            "focus_x": 0,
+            "focus_y": -40,
+            "char_width": 349,
+            "char_height": 390
+        }
+    },
+    "Hod": {
+        "blunt": {
+            "focus_x": 105,
+            "focus_y": 40,
+            "char_width": 319,
+            "char_height": 464
+        },
+        "slash": {
+            "focus_x": 0,
+            "focus_y": -75,
+            "char_width": 230,
+            "char_height": 360
+        }
+    },
+    "LiuAso": {
+        "hurt": {
+            "focus_x": 100,
+            "focus_y": -43,
+            "char_width": 380,
+            "char_height": 545
+        },
+        "move": {
+            "focus_x": -100,
+            "focus_y": -46,
+            "char_width": 486,
+            "char_height": 494
+        },
+        "slash": {
+            "focus_x": -21,
+            "focus_y": 57,
+            "char_width": 343,
+            "char_height": 389
+        }
+    },
+    "Lowell": {
+        "block": {
+            "focus_x": 3,
+            "focus_y": 117,
+            "char_width": 500,
+            "char_height": 473
+        },
+        "blunt": {
+            "focus_x": -32,
+            "focus_y": 90,
+            "char_width": 369,
+            "char_height": 542
+        },
+        "common": {
+            "focus_x": 0,
+            "focus_y": 160,
+            "char_width": 300,
+            "char_height": 470
+        },
+        "move": {
+            "focus_x": 5,
+            "focus_y": -100,
+            "char_width": 470,
+            "char_height": 490
+        },
+        "slash": {
+            "focus_x": 118,
+            "focus_y": 115,
+            "char_width": 308,
+            "char_height": 270
+        }
+    },
+    "Mei": {
+        "slash": {
+            "focus_x": 71,
+            "focus_y": 38,
+            "char_width": 267,
+            "char_height": 477
+        }
+    },
+    "Myo": {
+        "slash": {
+            "focus_x": 5,
+            "focus_y": 52,
+            "char_width": 218,
+            "char_height": 252
+        }
+    },
+    "Netzach": {
+        "common": {
+            "focus_x": 61,
+            "focus_y": 0,
+            "char_width": 222,
+            "char_height": 472
+        },
+        "evade": {
+            "focus_x": 76,
+            "focus_y": 0,
+            "char_width": 249,
+            "char_height": 483
+        },
+        "slash": {
+            "focus_x": -54,
+            "focus_y": -10,
+            "char_width": 200,
+            "char_height": 448
+        }
+    },
+    "Rabbit": {
+        "blunt": {
+            "focus_x": 0,
+            "focus_y": 0,
+            "char_width": 430,
+            "char_height": 533
+        },
+        "fire": {
+            "focus_x": 323,
+            "focus_y": 0,
+            "char_width": 409,
+            "char_height": 436
+        },
+        "slash": {
+            "focus_x": 30,
+            "focus_y": 80,
+            "char_width": 342,
+            "char_height": 511
+        }
+    },
+    "RedMist": {
+        "block": {
+            "focus_x": 0,
+            "focus_y": -50,
+            "char_width": 292,
+            "char_height": 500
+        },
+        "blunt": {
+            "focus_x": -264,
+            "focus_y": 100,
+            "char_width": 341,
+            "char_height": 410
+        },
+        "common": {
+            "focus_x": 140,
+            "focus_y": -90,
+            "char_width": 200,
+            "char_height": 430
+        },
+        "evade": {
+            "focus_x": 232,
+            "focus_y": -45,
+            "char_width": 344,
+            "char_height": 511
+        },
+        "hurt": {
+            "focus_x": 150,
+            "focus_y": -100,
+            "char_width": 230,
+            "char_height": 424
+        },
+        "move": {
+            "focus_x": -298,
+            "focus_y": -27,
+            "char_width": 433,
+            "char_height": 482
+        },
+        "pierce": {
+            "focus_x": 450,
+            "focus_y": 0,
+            "char_width": 572,
+            "char_height": 599
+        },
+        "slash": {
+            "focus_x": -157,
+            "focus_y": -67,
+            "char_width": 404,
+            "char_height": 444
+        }
+    },
+    "RedMistEgo": {
+        "block": {
+            "focus_x": -71,
+            "focus_y": -50,
+            "char_width": 277,
+            "char_height": 463
+        },
+        "blunt": {
+            "focus_x": -104,
+            "focus_y": 117,
+            "char_width": 354,
+            "char_height": 400
+        },
+        "evade": {
+            "focus_x": 269,
+            "focus_y": -50,
+            "char_width": 300,
+            "char_height": 540
+        },
+        "hurt": {
+            "focus_x": 160,
+            "focus_y": -75,
+            "char_width": 230,
+            "char_height": 454
+        },
+        "move": {
+            "focus_x": -374,
+            "focus_y": 17,
+            "char_width": 405,
+            "char_height": 407
+        },
+        "pierce": {
+            "focus_x": 215,
+            "focus_y": 0,
+            "char_width": 525,
+            "char_height": 599
+        },
+        "slash": {
+            "focus_x": 180,
+            "focus_y": 25,
+            "char_width": 222,
+            "char_height": 282
+        }
+    },
+    "Tiphereth": {
+        "slash": {
+            "focus_x": 5,
+            "focus_y": -39,
+            "char_width": 260,
+            "char_height": 437
+        }
+    },
+    "Yae": {
+        "common": {
+            "focus_x": 48,
+            "focus_y": -10,
+            "char_width": 148,
+            "char_height": 415
+        },
+        "hurt": {
+            "focus_x": -229,
+            "focus_y": 0,
+            "char_width": 306,
+            "char_height": 472
+        }
+    },
+    "Yan": {
+        "evade": {
+            "focus_x": 252,
+            "focus_y": -38,
+            "char_width": 700,
+            "char_height": 700
+        },
+        "move": {
+            "focus_x": -371,
+            "focus_y": -19,
+            "char_width": 638,
+            "char_height": 646
+        }
+    },
+    "YangN": {
+        "blunt": {
+            "focus_x": 20,
+            "focus_y": 20,
+            "char_width": 340,
+            "char_height": 253
+        }
+    }
+}

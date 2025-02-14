@@ -1,0 +1,10 @@
+需要安装的库：
+    pygame
+    pytmx
+    os
+    sys
+    copy
+    math
+    random
+    openai
+    typing

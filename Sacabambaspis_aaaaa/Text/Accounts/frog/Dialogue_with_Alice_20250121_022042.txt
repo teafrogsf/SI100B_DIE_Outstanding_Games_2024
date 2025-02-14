@@ -1,0 +1,10 @@
+Dialogue
+
+0   	Hello
+
+Alice   	*Looking away and slightly frowning* "What do you want? I was just out collecting stones for our game together."
+
+0   	Who are you?
+
+Alice   	*I soften slightly, looking at him with a hint of warmth* "I'm Alice, Bob's friend. Nice to meet you... I think you're that Soul Knight guy who saved the world?"
+

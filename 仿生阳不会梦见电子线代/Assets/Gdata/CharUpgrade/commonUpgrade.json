@@ -1,0 +1,443 @@
+{
+    "速战速决+": {
+        "Desq": "获得被动能力 “速战速决 - 速度骰子+1” ",
+        "InPool": false,
+        "Modifier": [
+            {
+                "attr": "addPassive",
+                "val": "速战速决"
+            }
+        ]
+    },
+    "速战速决++": {
+        "Desq": "将被动能力 “速战速决 - 速度骰子+1” 升级为 “速战速决3 - 速度骰子+1 情感等级达到3级后额外+1” ",
+        "InPool": false,
+        "Modifier": [
+            {
+                "attr": "addPassive",
+                "val": "速战速决3"
+            },
+            {
+                "attr": "delPassive",
+                "val": "速战速决"
+            }
+        ]
+    },
+    "速战速决+++": {
+        "Desq": "将被动能力 “速战速决3 - 速度骰子+1 情感等级达到3级后额外+1” 升级为 “速战速决2 - 速度骰子+2” ",
+        "InPool": false,
+        "Modifier": [
+            {
+                "attr": "addPassive",
+                "val": "速战速决2"
+            },
+            {
+                "attr": "delPassive",
+                "val": "速战速决3"
+            }
+        ]
+    },
+    "血脉涌动I": {
+        "Desq": "生命值最大值+5%",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "health",
+                "val": [
+                    0.05,
+                    0
+                ]
+            }
+        ]
+    },
+    "血脉涌动II": {
+        "Desq": "生命值最大值+10%",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "health",
+                "val": [
+                    0.1,
+                    0
+                ]
+            }
+        ]
+    },
+    "血脉涌动III": {
+        "Desq": "生命值最大值+15%",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "health",
+                "val": [
+                    0.15,
+                    0
+                ]
+            }
+        ]
+    },
+    "生机护佑I": {
+        "Desq": "生命值最大值+7",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "health",
+                "val": [
+                    0,
+                    7
+                ]
+            }
+        ]
+    },
+    "生机护佑II": {
+        "Desq": "生命值最大值+13",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "health",
+                "val": [
+                    0,
+                    13
+                ]
+            }
+        ]
+    },
+    "生机护佑III": {
+        "Desq": "生命值最大值+18",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "health",
+                "val": [
+                    0,
+                    18
+                ]
+            }
+        ]
+    },
+    "心灵屏障I": {
+        "Desq": "混乱抗性最大值+5%",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "stagger",
+                "val": [
+                    0.05,
+                    0
+                ]
+            }
+        ]
+    },
+    "心灵屏障II": {
+        "Desq": "混乱抗性最大值+10%",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "stagger",
+                "val": [
+                    0.1,
+                    0
+                ]
+            }
+        ]
+    },
+    "心灵屏障III": {
+        "Desq": "混乱抗性最大值+15%",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "stagger",
+                "val": [
+                    0.15,
+                    0
+                ]
+            }
+        ]
+    },
+    "意志共鸣I": {
+        "Desq": "混乱抗性最大值+3",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "stagger",
+                "val": [
+                    0,
+                    3
+                ]
+            }
+        ]
+    },
+    "意志共鸣II": {
+        "Desq": "混乱抗性最大值+6",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "stagger",
+                "val": [
+                    0,
+                    6
+                ]
+            }
+        ]
+    },
+    "意志共鸣III": {
+        "Desq": "混乱抗性最大值+10",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "stagger",
+                "val": [
+                    0,
+                    10
+                ]
+            }
+        ]
+    },
+    "加速I": {
+        "Desq": "速度骰子最大值+1",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "speed",
+                "val": [
+                    0,
+                    1
+                ]
+            }
+        ]
+    },
+    "加速II": {
+        "Desq": "速度骰子最小值+1",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "speed",
+                "val": [
+                    1,
+                    0
+                ]
+            }
+        ]
+    },
+    "加速+": {
+        "Desq": "速度骰子最小值+1,最大值+1",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "speed",
+                "val": [
+                    1,
+                    1
+                ]
+            }
+        ]
+    },
+    "得见光芒": {
+        "Desq": "初始光芒+1",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "light",
+                "val": 1
+            }
+        ]
+    },
+    "断刃-无锋": {
+        "Desq": "斩击全伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Slash",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Slash",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "折戟-突破": {
+        "Desq": "斩击,突刺伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Slash",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Pierce",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "折戟-锋刃": {
+        "Desq": "斩击,突刺混乱伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Slash",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Pierce",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "锋芒-整固": {
+        "Desq": "突刺全伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Pierce",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Pierce",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "钝爪-突破": {
+        "Desq": "斩击,打击伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Slash",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Blunt",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "钝爪-爆发": {
+        "Desq": "斩击,打击混乱伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Slash",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Blunt",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "碎骨-援护": {
+        "Desq": "打击全伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Blunt",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Blunt",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "锈刃-研磨": {
+        "Desq": "突刺，打击伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Blunt",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Life",
+                    "category": "Pierce",
+                    "val": 1
+                }
+            }
+        ]
+    },
+    "锈刃-久居": {
+        "Desq": "突刺，打击混乱伤害抗性+1（无法强于“抵抗”）",
+        "InPool": true,
+        "Modifier": [
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Blunt",
+                    "val": 1
+                }
+            },
+            {
+                "attr": "resis",
+                "val": {
+                    "type": "Stagger",
+                    "category": "Pierce",
+                    "val": 1
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "_StageLen": 1,
+    "1": {
+        "map": "4",
+        "upgradeBarNum": 2,
+        "upgradeChoiceNum": 4,
+        "DiceUpgrade": [
+            0.8,
+            0.5,
+            0.2
+        ],
+        "passiveBarNum": 1,
+        "passiveChoiceNum": 4,
+        "passiveCurve": [
+            [
+                30,
+                40,
+                15,
+                15,
+                10
+            ]
+        ],
+        "receptionInfo": {
+            "receptionName": "并非强敌",
+            "receptionIndex": "LR-4",
+            "receptionBG": "4",
+            "receptionMusic": "4",
+            "Enemy": [],
+            "Reception": "redmist"
+        }
+    },
+    "2": {}
+}

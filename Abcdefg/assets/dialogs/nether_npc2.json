@@ -1,0 +1,54 @@
+{
+  "start": "1",
+  "data": {
+    "1": {
+      "npc": "nether_npc2_guide_dialogue1",
+      "player": [
+        {
+          "str": "nether_player2_guide_dialogue1",
+          "next": "2"
+        }
+      ]
+    },
+    "2": {
+      "npc": "nether_npc2_guide_dialogue2",
+      "player": [
+        {
+          "str": "nether_player2_guide_dialogue2",
+          "next": "3"
+        }
+      ]
+    },
+    "3": {
+      "npc": "nether_npc2_guide_dialogue3",
+      "player": [
+        {
+          "str": "nether_npc2_guide_option1",
+          "next": "!1"
+        },
+        {
+          "str": "nether_npc2_guide_option2",
+          "next": "!2"
+        }
+      ]
+    },
+    "b1": {
+      "npc": "nether_npc2_guide_dialogue_b1",
+      "player": [
+        {
+          "str": "nether_player2_guide_dialogue_b1",
+          "next": "!#"
+        }
+      ]
+    },
+    "b2": {
+      "npc": "nether_npc2_guide_dialogue_b2",
+      "player": [
+        {
+          "str": "nether_player2_guide_dialogue_b2",
+          "next": "!#"
+        }
+      ]
+    }
+  }
+}

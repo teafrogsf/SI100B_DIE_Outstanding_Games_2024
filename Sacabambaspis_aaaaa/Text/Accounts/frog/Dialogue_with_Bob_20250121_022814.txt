@@ -1,0 +1,58 @@
+Dialogue
+
+0   	Hello bob 
+
+Bob   	Hello there! *nervous smile* Welcome to my shop! I see you're looking for some new gear to support your... um, hero work? *awkward nod*
+
+Let me show you what I have available. *whips out the price table* We have a variety of guns and potions that might interest you.
+
+We have the 'Soul gun' for 20 Soulstones, which gives you fast movement and can even shoot through walls! And if you're looking to boost your magic power, our 'Magician' potion is available for 25 Soulstones. It gives you a whopping 100 MP!
+
+As for other goodies... *ahem* We have some special items that might interest you when I get around to telling you about them... *wink*
+
+What's on your mind? Need some help finding something in particular?
+
+0   	Soul gun
+
+Bob   	*beams with a warm smile* Ah, excellent choice! The 'Soul gun' is one of our most popular items. I'm glad to see you like it too!
+
+Alright, so you've chosen the 'Soul gun'. That'll be 20 Soulstones, please. *hands over the gun*
+
+Now, let me just update your inventory real quick... *taps on an invisible screen* Okay, all set! You now have the 'Soul gun' in your inventory.
+
+By the way, would you like to hear a funny story about my friend Alice and me playing our favorite game, Soulstones? She's always been great at finding those hard-to-reach stones... *chuckles*
+
+Also, I hope you're not feeling rushed, but we have some other items that might interest you. What do you say?
+
+0   	cool
+
+Bob   	*laughs and leans in a bit closer* Ah, cool, huh? Well, I'm glad you think so! *smiles*
+
+Speaking of which, I should probably show you some other stuff we have available. Let's see... *thinks for a moment* We have potions that can give you a boost in speed or magic power. For example, our 'Speeding up' potion will increase your speed by 2, making you even faster with the 'Soul gun'. And if you're interested in boosting your magic power, our 'Magician' potion is always a popular choice.
+
+We also have some other guns to choose from, like... well, there's the 'Firing gun', which gives you some extra firepower. *winks*
+
+Which one catches your eye?
+
+0   	soul gun
+
+Bob   	*notices that he already has the Soul gun and chuckles* Ah, nice choice! Well, I think we can add to what you already have. *smirks*
+
+Let me show you our 'Firing gun'. It's a bit pricier than the 'Soul gun', but it packs some serious punch. We're talking 20 Soulstones for this one.
+
+I like that you already own the 'Soul gun', by the way! You seem like someone who appreciates what their gear does. *impressed nod*
+
+We also have some other items that I think would interest you... but I want to make sure you don't need anything else, first!
+
+0   	Buy soul gun please
+
+Bob   	*smiles warmly* Ah, another 'Soul gun'! You're really stocking up on some sweet gear. *chuckles*
+
+Alright, so that's two 'Soul guns'. I'll just need to process the sale... *taps on an invisible screen* Okay, all done!
+
+Now you've got not one, but two 'Soul guns' in your inventory. You must be looking forward to some serious firepower.
+
+By the way, did I ever tell you about the time Alice and I played Soulstones? It was a real nail-biter... *laughs*
+
+We also have some other potions that might interest you, like... well, there's our 'Solid body' potion, which gives you an extra boost in health. Or if you're feeling adventurous, we have our 'Infinite magic' potion...
+

@@ -1,0 +1,113 @@
+{
+    "CommonSceneBGM": {
+        "Beginning": [
+            "theme2.mp3"
+        ],
+        "Map": [
+            "theme3.mp3",
+            "theme4.mp3",
+            "theme5.mp3",
+            "theme6.mp3",
+            "theme7.mp3",
+            "theme8.mp3",
+            "theme9.mp3"
+        ],
+        "Generating": [
+            "theme4.mp3",
+            "theme3.mp3",
+            "theme7.mp3",
+            "theme8.mp3",
+            "theme9.mp3"
+        ],
+        "DeckSelection": [
+            "theme1.wav",
+            "theme4.mp3",
+            "theme3.mp3",
+            "theme8.mp3"
+        ],
+        "Ending": [
+            "theme2.mp3",
+            "theme5.mp3"
+        ]
+    },
+    "BattleSceneBGM": {
+        "1": {
+            "List": [
+                "battle7.mp3",
+                "battle8.mp3",
+                "battle1.mp3",
+                "battle4.mp3",
+                "battle5.mp3"
+            ]
+        },
+        "2": {
+            "List": [
+                "battle7.mp3",
+                "battle8.mp3",
+                "battle12.mp3",
+                "battle4.mp3",
+                "battle5.mp3"
+            ]
+        },
+        "3": {
+            "List": [
+                "battle11.mp3",
+                "battle4.mp3",
+                "battle5.mp3"
+            ]
+        },
+        "4": {
+            "List": [
+                "battle2.mp3",
+                "battle10.mp3",
+                "battle13.mp3"
+            ],
+            "Rule": {
+                "FirstLock": "battle10.mp3"
+            }
+        },
+        "Yang": {
+            "List": [
+                "yang.wav",
+                "battle6.mp3",
+                "battle3.mp3"
+            ],
+            "Rule": {
+                "FirstLock": "yang.wav"
+            }
+        }
+    },
+    "SoundEffect": {
+        "CardSelecting": "ButtonClick.wav",
+        "ButtonClick": "ButtonClick.wav",
+        "ButtonEnter": "ButtonEnter.wav",
+        "DiceRolling": "DiceRolling.wav",
+        "Snap": "Snap.wav",
+        "Explosion": "AttackBlunt1.wav",
+        "AttackSlash": "AttackSlash.wav",
+        "AttackPierce": "AttackPierce.wav",
+        "AttackBlunt": "AttackBlunt.wav",
+        "DefenseBlock": "DefenseBlock.wav",
+        "DefenseEvade": "DefenseEvade.wav",
+        "Typing": "Typing.wav"
+    },
+    "VolumeModify": {
+        "theme1.wav": 0.6,
+        "ButtonClick.wav": 0.3,
+        "ButtonEnter.wav": 0.2,
+        "Typing.wav": 0.8,
+        "theme6.mp3": 0.4,
+        "theme7.mp3": 0.4,
+        "theme5.mp3": 0.7,
+        "AttackSlash.wav": 0.5,
+        "AttackPierce.wav": 0.6,
+        "AttackBlunt.wav": 0.35,
+        "DefenseBlock.wav": 0.5,
+        "DefenseEvade": 1,
+        "DiceRolling.wav": 0.5,
+        "AttackBlunt1.wav": 0.9
+    },
+    "MutiModify": {
+        "ButtonEnter.wav": false
+    }
+}

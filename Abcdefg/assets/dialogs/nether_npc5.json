@@ -1,0 +1,63 @@
+{
+  "start": "1",
+  "data": {
+    "1": {
+      "npc": "nether_npc5_ghost_dialogue1",
+      "player": [
+        {
+          "str": "nether_player5_ghost_dialogue1",
+          "next": "2"
+        },
+        {
+          "str": "nether_player5_ghost_dialogue1_2",
+          "next": "2"
+        }
+      ]
+    },
+    "2": {
+      "npc": "nether_npc5_ghost_dialogue2",
+      "player": [
+        {
+          "str": "nether_player5_ghost_dialogue2",
+          "next": "3"
+        }
+      ]
+    },
+    "3": {
+      "npc": "nether_npc5_ghost_dialogue3",
+      "player": [
+        {
+          "str": "nether_player5_ghost_dialogue3",
+          "next": "4"
+        }
+      ]
+    },
+    "4": {
+      "npc": "nether_npc5_ghost_dialogue4",
+      "player": [
+        {
+          "str": "nether_player5_ghost_option1",
+          "next": "!1"
+        }
+      ]
+    },
+    "b1": {
+      "npc": "nether_npc5_ghost_dialogue_b1",
+      "player": [
+        {
+          "str": "nether_player5_ghost_dialogue_b1",
+          "next": "!#"
+        }
+      ]
+    },
+    "b2": {
+      "npc": "nether_npc5_ghost_dialogue_b2",
+      "player": [
+        {
+          "str": "nether_player5_ghost_dialogue_b2",
+          "next": "!#"
+        }
+      ]
+    }
+  }
+}

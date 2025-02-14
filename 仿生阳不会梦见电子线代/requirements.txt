@@ -1,0 +1,12 @@
+Package:
+
+python-3.11.10
+pygame-2.6.1 
+numpy-2.0.1
+openai-1.52.1
+spacy-3.8.2
+scikit-learn-1.5.2
+
+Scikit-learn zh model:
+
+python -m spacy download zh_core_web_md

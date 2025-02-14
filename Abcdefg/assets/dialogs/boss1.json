@@ -1,0 +1,66 @@
+{
+  "start": "1",
+  "data": {
+    "1": {
+      "npc": "boss_npc1_dia1",
+      "player": [
+        {
+          "str": "boss_player1_dia1_1",
+          "next": "2"
+        },
+        {
+          "str": "boss_player1_dia1_2",
+          "next": "3"
+        }
+      ]
+    },
+    "2": {
+      "npc": "boss_npc1_dia2_1",
+      "player": [
+        {
+          "str": "boss_player1_dia2_1_1",
+          "next": "4"
+        },
+        {
+          "str": "boss_player1_dia2_1_2",
+          "next": "!2"
+        }
+      ]
+    },
+    "3": {
+      "npc": "boss_npc1_dia2_2",
+      "player": [
+        {
+          "str": "...",
+          "next": "!1"
+        }
+      ]
+    },
+    "4": {
+      "npc": "boss_npc1_dia3",
+      "player": [
+        {
+          "str": "boss_player1_dia3_1",
+          "next": "!3"
+        },
+        {
+          "str": "boss_player1_dia3_2",
+          "next": "!4"
+        }
+      ]
+    },
+    "5": {
+      "npc": "boss_npc1_dia3",
+      "player": [
+        {
+          "str": "boss_player1_dia3_1",
+          "next": "!2"
+        },
+        {
+          "str": "boss_player1_dia3_2",
+          "next": "!3"
+        }
+      ]
+    }
+  }
+}

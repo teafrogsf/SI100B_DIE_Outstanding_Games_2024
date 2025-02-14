@@ -1,0 +1,72 @@
+{
+  "start": "1",
+  "data": {
+    "1": {
+      "npc": "nether_npc4_frost_dialogue1",
+      "player": [
+        {
+          "str": "nether_player4_frost_dialogue1",
+          "next": "2"
+        }
+      ]
+    },
+    "2": {
+      "npc": "nether_npc4_frost_dialogue2",
+      "player": [
+        {
+          "str": "nether_player4_frost_dialogue2",
+          "next": "3"
+        }
+      ]
+    },
+    "3": {
+      "npc": "nether_npc4_frost_dialogue3",
+      "player": [
+        {
+          "str": "nether_player4_frost_dialogue3",
+          "next": "4"
+        }
+      ]
+    },
+    "4": {
+      "npc": "nether_npc4_frost_dialogue4",
+      "player": [
+        {
+          "str": "nether_npc4_frost_option1",
+          "next": "!1"
+        },
+        {
+          "str": "nether_npc4_frost_option2",
+          "next": "!2"
+        }
+      ]
+    },
+    "b1": {
+      "npc": "nether_npc4_frost_dialogue_b1",
+      "player": [
+        {
+          "str": "nether_player4_frost_dialogue_b1",
+          "next": "!#"
+        }
+      ]
+    },
+    "b2": {
+      "npc": "nether_npc4_frost_dialogue_b2",
+      "player": [
+        {
+          "str": "nether_player4_frost_dialogue_b2",
+          "next": "!#"
+        }
+      ]
+    },
+    "b3": {
+      "npc": "nether_npc4_frost_dialogue_b3",
+      "player": [
+        {
+          "str": "nether_player4_frost_dialogue_b3",
+          "next": "!#"
+        }
+      ]
+    }
+  }
+}

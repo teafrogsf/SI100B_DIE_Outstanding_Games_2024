@@ -1,0 +1,157 @@
+{
+    "Background": "./assets/img/bg_img_1.png",
+    "yOffset": 20,
+    "Enemies": [
+        {
+            "ID": "en1-2",
+            "name": "重型卫兵",
+            "type": "normal",
+            "HP": 40,
+            "maxHP": 40,
+            "SP": 100,
+            "SPHeal": 100,
+            "maxSP": 100,
+            "cards": [
+                {
+                    "ID": "1-2-1",
+                    "title": "巨剑挥砍",
+                    "description": "",
+                    "gate": "xor",
+                    "type": "True",
+                    "level": 2,
+                    "effects": [],
+                    "imgLocation": "./assets/card/1-2-1.png"
+                },
+                {
+                    "ID": "1-2-2",
+                    "title": "禁止通行",
+                    "description": "",
+                    "gate": "xnor",
+                    "type": "True",
+                    "level": 2,
+                    "effects": [],
+                    "imgLocation": "./assets/card/1-2-2.png"
+                },
+                {
+                    "ID": "1-2-3",
+                    "title": "以身为盾",
+                    "description": "",
+                    "gate": "nand",
+                    "type": "False",
+                    "level": 3,
+                    "effects": [],
+                    "imgLocation": "./assets/card/1-2-3.png"
+                },
+                {
+                    "ID": "1-2-4",
+                    "title": "快速砍杀",
+                    "description": "",
+                    "gate": "xnor",
+                    "type": "True",
+                    "level": 2,
+                    "effects": [],
+                    "imgLocation": "./assets/card/1-2-4.png"
+                },
+                {
+                    "ID": "1-2-5",
+                    "title": "防守-阳",
+                    "description": "本卡无法被操作。本卡不计入拼点。受到伤害时，伤害减少本卡等级，若伤害因此变为零，下回合固定使用特殊强卡。",
+                    "gate": "Defence",
+                    "type": "True",
+                    "level": 2,
+                    "effects": [
+                        "selectProhibit",
+                        "defence",
+                        "hasCounterAttack"
+                    ],
+                    "imgLocation": "./assets/card/1-2-5.png"
+                },
+                {
+                    "ID": "1-2-6",
+                    "title": "防守-阴",
+                    "description": "本卡无法被操作。本卡不计入拼点。受到伤害时，伤害减少本卡等级，若伤害因此变为零，下回合固定使用特殊强卡。",
+                    "gate": "Defence",
+                    "type": "False",
+                    "level": 2,
+                    "effects": [
+                        "selectProhibit",
+                        "defence",
+                        "hasCounterAttack"
+                    ],
+                    "imgLocation": "./assets/card/1-2-6.png"
+                },
+                {
+                    "ID": "1-2-7",
+                    "title": "骨钉奥义·泪之反击",
+                    "description": "本卡无法被操作。",
+                    "gate": "None",
+                    "type": "False",
+                    "level": 12,
+                    "effects": [
+                        "selectProhibit"
+                    ],
+                    "imgLocation": "./assets/card/1-2-7.png"
+                },
+                {
+                    "ID": "1-2-8",
+                    "title": "骨钉奥义·泪之反击",
+                    "description": "本卡无法被操作。",
+                    "gate": "None",
+                    "type": "True",
+                    "level": 12,
+                    "effects": [
+                        "selectProhibit"
+                    ],
+                    "imgLocation": "./assets/card/1-2-8.png"
+                }
+            ],
+            "strategy": [
+                [
+                    "1-2-1",
+                    "1-2-2",
+                    "1-2-3",
+                    "1-2-4"
+                ],
+                [
+                    "1-2-1",
+                    "1-2-3",
+                    "1-2-4",
+                    "1-2-5"
+                ],
+                [
+                    "1-2-2",
+                    "1-2-3",
+                    "1-2-4",
+                    "1-2-6"
+                ],
+                [
+                    "1-2-1",
+                    "1-2-2",
+                    "1-2-5",
+                    "1-2-6"
+                ]
+            ],
+            "specialStrategy": {
+                "counterAttack": [
+                    "1-2-7",
+                    "1-2-8"
+                ]
+            },
+            "imgLocation": "./assets/char/en-1-2",
+            "posXoffset": 0,
+            "posYoffset": 0,
+            "imgSize": [
+                140,
+                140
+            ],
+            "imgDashSize": [
+                150,
+                140
+            ],
+            "imgAttackSize": [
+                250,
+                140
+            ]
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "Background": "./assets/img/bg_img_0.png",
+    "yOffset": 0,
+    "Enemies": [
+        {
+            "ID": "en0-1",
+            "name": "大黄蜂",
+            "type": "normal",
+            "HP": 60,
+            "maxHP": 60,
+            "SP": 70,
+            "SPHeal": 70,
+            "maxSP": 70,
+            "cards": [
+                {
+                    "ID": "0-1-1",
+                    "title": "进攻",
+                    "description": "",
+                    "gate": "nand",
+                    "type": "True",
+                    "level": 2,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1-1.png"
+                },
+                {
+                    "ID": "0-1-2",
+                    "title": "瞄准",
+                    "description": "",
+                    "gate": "nand",
+                    "type": "False",
+                    "level": 2,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1-2.png"
+                },
+                {
+                    "ID": "0-1-3",
+                    "title": "后撤",
+                    "description": "",
+                    "gate": "xor",
+                    "type": "True",
+                    "level": 3,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1-3.png"
+                },
+                {
+                    "ID": "0-1-4",
+                    "title": "线",
+                    "description": "",
+                    "gate": "xor",
+                    "type": "False",
+                    "level": 3,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1-4.png"
+                },
+                {
+                    "ID": "0-1-5",
+                    "title": "针",
+                    "description": "",
+                    "gate": "and",
+                    "type": "True",
+                    "level": 5,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1-5.png"
+                },
+                {
+                    "ID": "0-1-6",
+                    "title": "冲刺",
+                    "description": "",
+                    "gate": "and",
+                    "type": "False",
+                    "level": 6,
+                    "effects": [],
+                    "imgLocation": "./assets/card/0-1-6.png"
+                }
+            ],
+            "strategy": [
+                [
+                    "0-1-1",
+                    "0-1-2",
+                    "0-1-3",
+                    "0-1-6"
+                ],
+                [
+                    "0-1-1",
+                    "0-1-2",
+                    "0-1-4",
+                    "0-1-5"
+                ],
+                [
+                    "0-1-1",
+                    "0-1-2",
+                    "0-1-3",
+                    "0-1-4",
+                    "0-1-5"
+                ],
+                [
+                    "0-1-1",
+                    "0-1-2",
+                    "0-1-3",
+                    "0-1-4",
+                    "0-1-6"
+                ],
+                [
+                    "0-1-1",
+                    "0-1-2",
+                    "0-1-3",
+                    "0-1-4",
+                    "0-1-5",
+                    "0-1-6"
+                ]
+            ],
+            "specialStrategy": {},
+            "imgLocation": "./assets/char/en-0-1",
+            "posXoffset": 0,
+            "posYoffset": 0,
+            "imgSize": [
+                90,
+                100
+            ],
+            "imgDashSize": [
+                140,
+                90
+            ],
+            "imgAttackSize": [
+                180,
+                90
+            ]
+        }
+    ]
+}

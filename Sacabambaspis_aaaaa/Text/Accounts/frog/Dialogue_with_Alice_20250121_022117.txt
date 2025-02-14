@@ -1,0 +1,10 @@
+Dialogue
+
+0   	Hello?
+
+Alice   	*looking away, slightly annoyed at being addressed* "What do you want? You're just standing there staring at me. Go shop for your gear or something if you need it."
+
+0   	So hi
+
+Alice   	*nervously smiling, fidgeting with paws* "H-hi... What brings you here? I didn't know anyone was supposed to show up in our area..."
+

@@ -1,0 +1,62 @@
+Dialogue
+
+0   	Hi Bob
+
+Bob   	*looks up from the book I was reading, slightly surprised to see you standing there* Ah, hello! Welcome back. It's been a while since we've met again. What brings you here? Are you looking for something in particular?
+
+*folds arms, looking curious and interested* By the way, have you heard any news about our world lately? The big changes that happened after...you know, when you saved us all from the monsters.
+
+*skeptical expression*
+
+Oh, by the way, I've been keeping busy with my shop. Just restocking some new items for customers who come in here.
+
+*pulls out a parchment with the price table, spreads it wide on the counter*
+
+Prices like so:
+
+(1)Weapons:
+1. 'Soul gun': 20 Soulstones,
+2. 'Firing gun': 30 Soulstones,
+...
+2. 'Speeding up': 10 Soulstones,
+3. 'Solid body': 15 Soulstones,
+4. 'Magician': 25 Soulstones,
+
+*looks at you expectantly*
+
+Do you need anything?
+
+0   	2
+
+Bob   	*eyes light up slightly, noticing the slight increase in 
+
+0   	Firing gun
+
+Bob   	I can prepare that for you. *picks up the 'Firing gun' from behind the counter and hands it to you*
+
+Here is your newly purchased 'Firing gun'. This should serve as a good companion in your...adventures ahead.
+
+*wipes down the counter with a cloth, giving you a friendly smile*
+
+So, how are you planning on using this new gun? Do you have any...leads or information about what's been going on since you last saved us?
+
+*leans back against the counter, eyes sparkling with interest*
+
+By the way, I've got some spare parts and accessories for it if you need them. Just let me know.
+
+*sits up straight again, ready to discuss anything you'd like*
+
+0   	Magician
+
+Bob   	*pulls out the 'Magician' from behind the counter, a hint of pride in my voice*
+
+Ah, I knew that one would come in handy for someone with your...mystical abilities. *hands it to you with a smile*
+
+This should give you a nice boost to your magic power. Do be careful not to overextend yourself, though. Magic can be tricky to control.
+
+*winks* And if you ever need any help or advice on how to use this one, I'm here for you. Just let me know what's on your mind.
+
+*sits back down behind the counter, watching you with a thoughtful expression*
+
+You know, I've been thinking...I heard rumors that the Philosopher's Stone might be hiding in a temple somewhere. Have you given any more thought to your plan?
+

@@ -1,0 +1,59 @@
+{
+  "start": "1",
+  "data": {
+    "1": {
+      "npc": "last_npc_dia1",
+      "player": [
+        {
+          "str": "last_player_dia1",
+          "next": "2"
+        }
+      ]
+    },
+    "2": {
+      "npc": "last_npc_dia2",
+      "player": [
+        {
+          "str": "last_player_dia2",
+          "next": "3"
+        }
+      ]
+    },
+    "3": {
+      "npc": "last_npc_dia3",
+      "player": [
+        {
+          "str": "last_player_dia3",
+          "next": "4"
+        }
+      ]
+    },
+    "4": {
+      "npc": "last_npc_dia4",
+      "player": [
+        {
+          "str": "last_player_dia4",
+          "next": "5"
+        }
+      ]
+    },
+    "5": {
+      "npc": "last_npc_dia5",
+      "player": [
+        {
+          "str": "last_player_dia5",
+          "next": "6"
+        }
+      ]
+    },
+    "6": {
+      "npc": "last_npc_dia6",
+      "player": [
+        {
+          "str": "last_player_dia6",
+          "next": "!1"
+        }
+      ]
+    }
+  }
+}
