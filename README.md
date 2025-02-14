@@ -54,7 +54,7 @@
 
 一个母鸡找公鸡下蛋的故事。在活让人眼前一~~黑~~亮的同时有着扎实的游戏系统和丰富的游戏玩法。
 
-~~游戏BGM邮电部诗人，长期游玩可造成emotial demage。~~
+~~游戏BGM邮电部诗人，长期游玩可造成emotional demage。~~
 
 ## Sacabambaspis_aaaaa
 
